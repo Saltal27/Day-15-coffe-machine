@@ -50,9 +50,9 @@ while turn_on:
         turn_on = False
 
     elif coffee_type == "report":
-        print(f"Water: {machine_water} ml")
-        print(f"Milk: {machine_milk} ml")
-        print(f"Coffee: {machine_coffee} ml")
+        print(f"Water: {machine_water}ml")
+        print(f"Milk: {machine_milk}ml")
+        print(f"Coffee: {machine_coffee}g")
         print(f"Money: ${money}")
 
     elif coffee_type == "espresso" or coffee_type == "latte" or coffee_type == "cappuccino":
